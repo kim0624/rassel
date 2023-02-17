@@ -88,6 +88,7 @@
     font-weight: 700;
 }
 
+
 html,
 body {
     color: #222;
@@ -2097,8 +2098,8 @@ body {
 }
 
 .uk-button-danger {
-    border: 1px solid #EB5A31;
-    background-color: #EB5A31;
+    border: 1px solid black;
+    background-color:black;
     color: #fff;
 }
 
@@ -2175,8 +2176,8 @@ body {
 }
 
 .uk-dotnav > .uk-active > * {
-    border-color: #EB5A31;
-    background-color: #EB5A31;
+    border-color: white;
+    background-color: white;
 }
 
 .social {
