@@ -87,7 +87,18 @@
     font-style: italic;
     font-weight: 700;
 }
-
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'InkLipquid';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/InkLipquid.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
 
 html,
 body {
@@ -156,16 +167,15 @@ h6 {
     font-weight: 600;
     line-height: 1.1;
     text-transform: capitalize;
+    font-family: 'S-CoreDream-3Light';
 }
 
 @font-face {
-    src: url("../fonts/ElegantIcons.eot");
-    src: url("../fonts/ElegantIcons.eot?#iefix") format("embedded-opentype"), url("../fonts/ElegantIcons.woff") format("woff"), url("../fonts/ElegantIcons.ttf") format("truetype"), url("../fonts/ElegantIcons.svg#ElegantIcons") format("svg");
-    font-family: 'ElegantIcons';
-    font-style: normal;
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
     font-weight: normal;
+    font-style: normal;
 }
-
 /* Use the following CSS code if you want to use data attributes for inserting your icons */
 
 [data-icon]:before {
@@ -2065,7 +2075,7 @@ body {
 }
 
 .uk-background-muted {
-    background: #F8EBE6;
+    background: #f2ede8;
 }
 
 .uk-button {
@@ -3500,7 +3510,8 @@ footer .social li a:hover {
 
 .section-hero__subtitle {
     color: #FFFFFF;
-    font-family: Cormorant;
+    -font-family: Cormorant;
+    font-family: 'InkLipquid';
     font-size: 36px;
     font-style: italic;
     font-weight: 500;
@@ -5667,7 +5678,7 @@ footer .social li a:hover {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #EB5A31;
+    background-color: green;
     content: '';
 }
 
@@ -5693,7 +5704,7 @@ footer .social li a:hover {
 
 .section-product-info__price {
     margin: 30px 0;
-    color: #EB5A31;
+    color: #5A31;
     font-family: Fauna One;
     font-size: 48px;
     font-style: normal;
@@ -6206,7 +6217,7 @@ body.page-about .slider-first-screen {
     height: 40px;
     border: 0;
     background-color: #fff;
-    color: #222;
+    color: white
 }
 
 .team-item__desc {
