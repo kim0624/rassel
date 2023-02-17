@@ -7631,6 +7631,16 @@ body.page-about .slider-first-screen {
     .section-content .item02{
         margin:0 650px;
     }
+    .section-content div p{
+        position:relative;
+        top:250px;
+        text-align: right;
+    }
+    .section-content div p:nth-child(2){
+        position:relative;
+        top:250px;
+        left:0;
+    }
 
 
 
