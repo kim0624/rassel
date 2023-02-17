@@ -2546,7 +2546,7 @@ footer .social li a:hover {
 }
 
 .page-header__btns-shop .uk-button-icon:hover {
-    background-color: #EB5A31;
+    background-color: green;
     color: #fff;
 }
 
@@ -2595,11 +2595,11 @@ footer .social li a:hover {
 }
 
 .page-header.page-header--static .page-nav .uk-navbar-nav > li > a:hover {
-    color: #EB5A31;
+    color:green;
 }
 
 .page-header.page-header--static .page-nav .uk-navbar-nav > li.uk-active > a {
-    color: #EB5A31;
+    color: green;
 }
 
 .logo {
@@ -2666,7 +2666,7 @@ footer .social li a:hover {
 }
 
 .page-footer__menus .uk-nav li a:hover {
-    color: #EB5A31;
+    color:;
 }
 
 .page-footer__text {
@@ -2834,8 +2834,8 @@ footer .social li a:hover {
     transition: 0.3s;
 }
 
-.page-nav .uk-navbar-dropdown-nav li a:hover {
-    color: #EB5A31;
+.page-nav .uk-navbar-dropdown-nav li a:hover { /*메뉴바 호버시 글자 색 바뀜*/
+    color: green;
 }
 
 .page-nav .uk-navbar-dropdown-nav li.uk-active > a {
@@ -7627,6 +7627,9 @@ body.page-about .slider-first-screen {
 
     .section-about__desc .section-title {
         padding-top: 10%;
+    }
+    .section-content .item02{
+        margin:0 650px;
     }
 
 
