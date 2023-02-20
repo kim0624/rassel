@@ -3502,6 +3502,11 @@ footer .social li a:hover {
    
 }
 
+.section-hero__title span{
+
+    font-size: 45px;    
+}
+
 
 
 
@@ -7651,7 +7656,7 @@ body.page-about .slider-first-screen {
 
     .section-content{ 
         font-size:  25px;
-        /* text-align: right !important;  */
+        text-align: left;
     
     }
 
@@ -7660,7 +7665,19 @@ body.page-about .slider-first-screen {
     .section-about__desc .section-title {
         padding-top: 10%;
     }
-
+    .section-content-02 li{
+        font-size: 2em;
+    }
+    
+    ul{
+        padding: 100 0px;
+        line-height: 80px;
+    }
 
 
 }
+
+ul{
+    list-style: none;
+}
+
