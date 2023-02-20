@@ -96,6 +96,15 @@
 .S-core {
     font-family: 'S-CoreDream-3Light';
 }
+.text-right {
+    text-align: right;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
 
 html,
 body {
@@ -7668,7 +7677,9 @@ body.page-about .slider-first-screen {
     .section-content-02 li{
         font-size: 2em;
     }
-    
+    .section-content-03 li{
+        font-size: 2em;
+    }
     ul{
         padding: 100 0px;
         line-height: 80px;
@@ -7679,5 +7690,9 @@ body.page-about .slider-first-screen {
 
 ul{
     list-style: none;
+}
+
+.section-content-03 ul{
+    border-radius: ;
 }
 
