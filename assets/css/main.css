@@ -3468,6 +3468,7 @@ footer .social li a:hover {
     width: 100%;
     max-height: 100vh;
     overflow: hidden;
+    background-color: white;
 
 }
 
@@ -6942,6 +6943,7 @@ body.page-about .slider-first-screen {
 
     .section-hero__title {
         font-size: calc(65px + 110.5 * ((100vw - 320px) / 1920));
+        display: none;
     }
 
     .section-hero__subtitle {
