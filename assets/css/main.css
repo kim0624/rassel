@@ -111,6 +111,9 @@
 .social li{
 margin-left:50px;
 }
+.pd-150{
+    padding: 150px 0;
+}
 .pd-100{
     padding: 100px 0;
 }
@@ -123,7 +126,9 @@ margin-left:50px;
 .bgcolor{
     background-color:white;
 }
-
+.margin-tp{
+    margin-top: 50px;
+}
 html,
 body {
     color: #222;
@@ -2659,7 +2664,9 @@ footer .social li a:hover {
     padding: 5.72917vw 6.77083vw 4.16667vw;
     background: #FFFFFF;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    
 }
+
 
 .page-footer__logo {
     display: block;
