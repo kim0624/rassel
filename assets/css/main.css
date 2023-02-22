@@ -5832,13 +5832,13 @@ footer .social li a:hover {
 }
 
 .glowcell-text {
-    color: #999;
+    color: #727272;
     font-weight: 700;
     font-size: 18px;
 }
 
 .glowcell-text span {
-    color: #646464;
+    color: #444444;
     font-size: 20px;
 }
 
@@ -7903,3 +7903,18 @@ ul{
     }
 }
 
+/*java script*/
+.js-load {
+	display: none;
+}
+.js-load.active {
+	display: block;
+}
+.js-load:after {
+	display: none;
+}
+.btn-wrap {
+	display: block;
+}
+ul.menu li { list-style:none;  position:relative; float:left; width:calc(100%/3 - 12px); margin:12px 6px 0; }
+.more {width:100%; line-height:30px; color:#72af2c;font-size:18px;font-weight:700;text-align:center;border:1px solid #72af2c;border-radius:6px;display:block;}
