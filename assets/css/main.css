@@ -100,6 +100,11 @@
 .noto {
     font-family: 'Noto Sans KR', sans-serif;
 }
+@import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
+.Suit{
+    font-family: 'SUIT-Regular';
+}
+
 .text-right {
     text-align: right;
 }
@@ -136,7 +141,10 @@ margin-left:50px;
 .margin-tp{
     margin-top: 50px;
 }
-
+a{
+    text-decoration: none;
+    color:white
+}
 
 html,
 body {
@@ -6702,6 +6710,7 @@ body.page-about .slider-first-screen {
 
 
 @media only screen and (max-width: 1200px) {
+
     .section-newsletter {
         padding-bottom: 0;
     }
@@ -6740,6 +6749,10 @@ body.page-about .slider-first-screen {
 }
 
 @media only screen and (max-width: 959px) {
+
+    .my-office{
+        display: none;
+    }
     .section-title {
         margin-bottom: 60px;
     }
@@ -7813,6 +7826,7 @@ ul{
 .line-heihgt-40{
     line-height:40px;
 }
+
 
 .section-newsletter__title p{
     padding-top: 7.5%;
