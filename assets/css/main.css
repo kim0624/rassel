@@ -1,6 +1,6 @@
 @charset "UTF-8";
 
-@font-face {
+/* @font-face {
     font-display: swap;
     src: url("../fonts/FaunaOne-Regular.woff") format("woff"), url("../fonts/FaunaOne-Regular.woff2") format("woff2");
     font-family: "Fauna One";
@@ -86,23 +86,24 @@
     font-family: "Cormorant";
     font-style: italic;
     font-weight: 700;
-}
-@font-face {
-    font-family: 'S-CoreDream-3Light';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
-.S-core {
-    font-family: 'S-CoreDream-3Light';
-}
-.noto {
-    font-family: 'Noto Sans KR', sans-serif;
-}
+} */
 @import url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_suit@1.0/SUIT-Regular.woff2') format('woff2');
 .Suit{
     font-family: 'SUIT-Regular';
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.Poppins{
+    font-family: 'Poppins', sans-serif;
+}
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+.neo {
+    font-family: 'NanumSquareNeo-Variable';
 }
 
 .text-right {
@@ -2148,10 +2149,9 @@ body {
 
 .uk-button-default:hover,
 .uk-button-default:focus,
-.uk-button-default:active {
-    border-color: #EB5A31;
+.uk-button-default:active {   
     color: #fff;
-    background-color: #EB5A31;
+    background-color: #ededed;
 }
 
 .uk-button-danger {
@@ -5759,7 +5759,7 @@ footer .social li a:hover {
     display: block;
     width: 30px;
     height: 2px;
-    background-color: #222;
+    background-color: #999;
     content: '';
 }
 
@@ -7752,51 +7752,13 @@ ul{
     list-style: none;
 }
 
-/* glowcell.html*/
-.section-glowcell {
-    display: block;
-    position: relative;
-    background-color: #f9f9f9;
+
+/* index.html */
+.section-about {
+    padding-top: 5%;
     padding-bottom: 5%;
+    text-align: center;
 }
-
-.half-HL {
-    background: linear-gradient(to top, #b7e0f7 40%, transparent 40%);
-    color: #1b2a59;
-    font-weight: 900;
-    /* -webkit-text-stroke: 1px #1b2a59; */
-}
-.glowcell-title {
-    /* font-size: 60px; */
-    margin: 0;
-}
-
-.glowcell-em {
-    /* -webkit-text-stroke: 1px #1b2a59; */
-    color: #1b2a59;;
-    font-weight: bold;
-}
-
-.section-mineral {
-    display: block;
-    background: url(../img/mineral.jpg);
-    /* background-color: lightcyan; */
-    /* height: 500px; */
-    padding-bottom: 5%;
-}
-.mineral-content {
-    width: 70%;
-    margin: 0 auto;
-    padding: 3%;
-    background-color: #fff;
-    background-position: bottom;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-.mineral-em {
-    /* -webkit-text-stroke: 1px #1b2a59; */
-}
-
 
 
 /* about.html */
@@ -7845,8 +7807,3 @@ ul{
         width: 100%;
     }
 }
-
-
-
-
-
