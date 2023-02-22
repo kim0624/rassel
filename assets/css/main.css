@@ -2667,13 +2667,13 @@ footer .social li a:hover {
 .page-footer {
     display: block;
     position: relative;
-    padding-bottom: 80px;
-    padding-bottom: 4.16667vw;
+  /* padding-bottom: 80px; */
+    /* padding-bottom: 4.16667vw; */
     background: #222222;
 }
 
 .page-footer__inner {
-    -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
     display: block;
     z-index: 1;
     position: relative;
@@ -2683,8 +2683,8 @@ footer .social li a:hover {
     margin: -4.16667vw auto 0;
     padding: 110px 130px 80px;
     padding: 5.72917vw 6.77083vw 4.16667vw;
-    background: #FFFFFF;
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    /* background: #FFFFFF; */
+    /* box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); */
     
 }
 
@@ -2697,7 +2697,7 @@ footer .social li a:hover {
 
 .page-footer__menus .uk-h4 {
     margin-bottom: 19px;
-    color: #222222;
+    color: #ffffff;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
@@ -2715,7 +2715,7 @@ footer .social li a:hover {
     -o-transition: 0.3s;
     display: block;
     position: relative;
-    color: #222222;
+    color: #ffffff;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -2724,14 +2724,10 @@ footer .social li a:hover {
     transition: 0.3s;
 }
 
-.page-footer__menus .uk-nav li a:hover {
-    color:;
-}
-
 .page-footer__text {
     margin-bottom: 30px;
-    color: #222222;
-    font-size: 18px;
+    color: #ffffff;
+    font-size: 16px;
     font-style: normal;
     font-weight: normal;
     line-height: 1.7;
@@ -2750,7 +2746,8 @@ footer .social li a:hover {
     margin-bottom: 3.28125vw;
     padding-bottom: 45px;
     padding-bottom: 2.34375vw;
-    border-bottom: 1px solid #E7D7D2;
+    border-bottom: 1px solid #ffffff;
+    color: #fff;
 }
 
 .page-footer__social > * {
@@ -2759,7 +2756,7 @@ footer .social li a:hover {
 
 .page-footer__social .uk-h3 {
     margin: 0 22px 0 0;
-    color: #222222;
+    color: #fff;
     font-size: 30px;
     font-style: normal;
     font-weight: bold;
@@ -2789,8 +2786,8 @@ footer .social li a:hover {
 .page-footer__bottom .copy {
     display: block;
     margin-right: 10px;
-    color: #222222;
-    font-size: 16px;
+    color: #ffffff;
+    font-size: 14px !important;
     font-style: normal;
     font-weight: normal;
     letter-spacing: -0.01em;
@@ -6388,7 +6385,7 @@ body.page-about .slider-first-screen {
     align-items: center;
     justify-content: center;
     padding: 40px 20px;
-    background-color: #fff;
+    -background-color: #fff;
 }
 
 .team-item__name {
@@ -6400,6 +6397,7 @@ body.page-about .slider-first-screen {
     font-weight: 600;
     line-height: 1.5;
     text-align: center;
+    border-bottom: 1px solid black;
 }
 @font-face {
     font-family: 'Chosunilbo_myungjo';
@@ -7843,13 +7841,30 @@ ul{
 .backgd-color{
     background-color: #e5e4ea;
 }
-/* .margin-tp{
+.margin-tp{
     margin-top:200px;
-} */
+}
 
 .font-color{
     color:gray;
 }
+
+.index-glowcell {
+    background: url(../img/index-glowcell.jpg);
+    width: 100%;
+    max-width: 100%;
+    height: 560px;
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.index-glowcell-text {
+   padding: 9%;
+}
+
+
+
 
 /* about.html */
 .about-video {
@@ -7887,16 +7902,11 @@ ul{
     /* width: 40%; */
     font-size: 40px;
     font-weight: 900;
-    padding: 30px;
 }
 .about-text {
     margin-top: 3%;
     
 }
- .about_img img{
-    padding:30px;
-    -width:450px;
-
 
 
 .section-newsletter__title p{
@@ -7906,7 +7916,6 @@ ul{
 .section-newsletter__title p span{
     /* font-size: 22px; */
     font-weight: bold;
-
 }
 @media (max-width:767px) {
     .video-content {
@@ -7921,6 +7930,17 @@ ul{
     .video-text {
         width: 100%;
     }
+}
+
+/* product_item.html */
+.product-em {
+    padding: 7px 20px;
+    background-color: #efefef;
+    color: #666;
+    font-size: 15px;
+    border-radius: 10px;
+    border: 1px solid #efefef;
+    margin-right: 15px;
 }
 
 /*java script*/
@@ -7938,11 +7958,3 @@ ul{
 }
 ul.menu li { list-style:none;  position:relative; float:left; width:calc(100%/3 - 12px); margin:12px 6px 0; }
 .more {width:100%; line-height:30px; color:#72af2c;font-size:18px;font-weight:700;text-align:center;border:1px solid #72af2c;border-radius:6px;display:block;}
-
-.bold{
-    font-weight: 800;
-}
-
-
-
-
