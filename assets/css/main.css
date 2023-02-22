@@ -2126,7 +2126,7 @@ body {
 }
 
 .uk-background-muted {
-    background: #f2ede8;
+    background: white;
 }
 
 .uk-button {
@@ -3337,6 +3337,7 @@ footer .social li a:hover {
     display: block;
     padding: 35px 20px 40px;
     text-align: center;
+    background-color: #f6f6f6;
 }
 
 .product-card__title {
@@ -3493,6 +3494,16 @@ footer .social li a:hover {
 
 }
 
+.section-hero__bg-about {
+    display: block;
+    z-index: 1;
+    position: relative;
+    width: 100%;
+    max-height: 600px;
+    overflow: hidden;
+    /* background-color: white; */
+
+}
 
 .section-home .section-hero__bg {
     min-height: 700px;
@@ -3938,12 +3949,14 @@ footer .social li a:hover {
 }
 
 .skincare-set-title {
-    font-size: 40px;
+    font-size: 55px;
     font-weight: 700;
     margin-bottom: 30px;
 }
 .skincare-set-text {
-
+    color: #727272;
+    font-weight: 700;
+    font-size: 18px;
 }
 
 .section-newsletter__form {
@@ -3963,7 +3976,7 @@ footer .social li a:hover {
     align-items: center;
     justify-content: center;
     height: 100%;
-    padding: 30px;
+    padding: 200px;
     /* background-image: url(../img/bg_newsletter.jpg); */
     background-position: center;
     background-size: cover;
@@ -6568,6 +6581,7 @@ body.page-about .slider-first-screen {
 
     .section-newsletter__title span {
         font-size: calc(14px + 4 * (100vw / 1920));
+        font-weight: 900;
     }
 
     .section-newsletter__title h3 {
@@ -7829,9 +7843,9 @@ ul{
 .backgd-color{
     background-color: #e5e4ea;
 }
-.margin-tp{
+/* .margin-tp{
     margin-top:200px;
-}
+} */
 
 .font-color{
     color:gray;
@@ -7873,11 +7887,16 @@ ul{
     /* width: 40%; */
     font-size: 40px;
     font-weight: 900;
+    padding: 30px;
 }
 .about-text {
     margin-top: 3%;
     
 }
+ .about_img img{
+    padding:30px;
+    -width:450px;
+
 
 
 .section-newsletter__title p{
@@ -7887,6 +7906,7 @@ ul{
 .section-newsletter__title p span{
     /* font-size: 22px; */
     font-weight: bold;
+
 }
 @media (max-width:767px) {
     .video-content {
@@ -7918,3 +7938,11 @@ ul{
 }
 ul.menu li { list-style:none;  position:relative; float:left; width:calc(100%/3 - 12px); margin:12px 6px 0; }
 .more {width:100%; line-height:30px; color:#72af2c;font-size:18px;font-weight:700;text-align:center;border:1px solid #72af2c;border-radius:6px;display:block;}
+
+.bold{
+    font-weight: 800;
+}
+
+
+
+
