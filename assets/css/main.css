@@ -127,12 +127,17 @@ margin-left:50px;
 .pdt-50{
     padding-top: 50px;
 }
+.pdt-150{
+    padding-top: 150px;
+}
 .bgcolor{
     background-color:white;
 }
 .margin-tp{
     margin-top: 50px;
 }
+
+
 html,
 body {
     color: #222;
@@ -7725,7 +7730,7 @@ body.page-about .slider-first-screen {
         padding: 100 0px;
         line-height: 65px;
     }
-    .section-content-02{}
+
 
 
 }
@@ -7805,6 +7810,13 @@ ul{
     /* background-color: #fff; */
     display: flex;
 }
+.line-heihgt-40{
+    line-height:40px;
+}
+
+.section-newsletter__title p{
+    padding-top: 7.5%;
+}
 @media (max-width:767px) {
     .video-content {
         flex-direction: column;
@@ -7819,3 +7831,8 @@ ul{
         width: 100%;
     }
 }
+
+
+
+
+
