@@ -2268,9 +2268,9 @@ body {
     justify-content: center;
     width: 42px;
     height: 42px;
-    border: 1px solid #d4beb9;
+    border: 1px solid #777;
     border-radius: 100%;
-    color: #d4beb9 !important;
+    color: #fff !important;
     font-size: 16px;
     font-style: normal;
     font-weight: normal;
@@ -2280,9 +2280,9 @@ body {
 }
 
 .social li a:hover {
-    border-color: #EB5A31;
-    background-color: #EB5A31;
-    color: #EB5A31 !important;
+    border-color: #777;
+    background-color: #777;
+    color: #fff !important;
     text-decoration: none;
 }
 
@@ -2290,6 +2290,7 @@ body {
 footer .social li a:hover {
     color: #fff !important;
 }
+
 
 
 .uk-pagination > * + * {
@@ -5873,27 +5874,7 @@ footer .social li a:hover {
 .section-product-info__size {
     display: block;
     position: relative;
-}
-
-.section-product-info__size ul {
-    -webkit-box-pack: start;
-    -ms-flex-pack: start;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -ms-flex-wrap: wrap;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: flex-start;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-}
-
-.section-product-info__size ul li {
-    margin: 0 15px 15px 0;
+    margin-top: 20px;
 }
 
 .section-product-info__size ul li label input[type="radio"] {
@@ -5960,7 +5941,7 @@ footer .social li a:hover {
 .section-product-info .uk-slider,
 .section-product-info .uk-position-relative,
 .section-product-info .uk-slider-items {
-    height: 100%;
+    height: 100vh;
 }
 
 .section-product-info .uk-slider-items li img {
@@ -7812,7 +7793,7 @@ body.page-about .slider-first-screen {
     }
     ul{
         padding: 100 0px;
-        line-height: 65px;
+        line-height: 30px;
     }
 
 
@@ -7857,6 +7838,7 @@ ul{
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 4.1%;
 }
 
 .index-glowcell-text {
