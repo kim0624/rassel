@@ -3364,7 +3364,7 @@ footer .social li a:hover {
 .product-card__title a:hover,
 .product-card__title a:focus,
 .product-card__title a:active {
-    color: #EB5A31;
+    color: #888;
     text-decoration: none;
 }
 
@@ -3476,9 +3476,9 @@ footer .social li a:hover {
 }
 
 
-.section-home.section-hero {
+/* .section-home.section-hero {
     min-height: 700px;
-}
+} */
 
 
 .section-hero__bg {
@@ -3497,15 +3497,15 @@ footer .social li a:hover {
     z-index: 1;
     position: relative;
     width: 100%;
-    max-height: 600px;
+    max-height: 600px !important;
     overflow: hidden;
-    /* background-color: white; */
+    background-color: white;
 
 }
 
-.section-home .section-hero__bg {
+/* .section-home .section-hero__bg {
     min-height: 700px;
-}
+} */
 
 
 .section-hero__bg img {
@@ -3546,9 +3546,9 @@ footer .social li a:hover {
 
 
 
-.section-home .section-hero__content {
+/* .section-home .section-hero__content {
     min-height: 700px;
-}
+} */
 
 
 .section-hero__content > * {
@@ -3973,7 +3973,7 @@ footer .social li a:hover {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100%;
+    /* height: 100%; */
     padding: 200px;
     /* background-image: url(../img/bg_newsletter.jpg); */
     background-position: center;
@@ -7838,7 +7838,7 @@ ul{
     background-position: bottom;
     background-size: cover;
     background-repeat: no-repeat;
-    margin-bottom: 4.1%;
+    /* margin-bottom: 4.1%; */
 }
 
 .index-glowcell-text {
@@ -7925,6 +7925,10 @@ ul{
     margin-right: 15px;
 }
 
+.img {
+    max-width: 100%;
+}
+
 /*java script*/
 .js-load {
 	display: none;
@@ -7940,3 +7944,29 @@ ul{
 }
 ul.menu li { list-style:none;  position:relative; float:left; width:calc(100%/3 - 12px); margin:12px 6px 0; }
 .more {width:100%; line-height:30px; color:#72af2c;font-size:18px;font-weight:700;text-align:center;border:1px solid #72af2c;border-radius:6px;display:block;}
+
+
+/* 반응형 */
+@media (max-width:767px) {
+    .page-header {
+        background: #fff !important;
+    }
+    .section-hero__content {
+        display: none;
+    }
+    .main-video {
+        /* height: 445px; */
+        margin-top: 90px;
+    }
+    .section-about__title {
+        font-size: 23px !important;
+    }
+    .section-product-info .uk-slider,
+    .section-product-info .uk-position-relative,
+    .section-product-info .uk-slider-items {
+        height: 400px;
+    }
+    .index-glowcell-text h1 {
+        font-size: 25px;
+    }
+}
